@@ -44,25 +44,25 @@ If you use any vim plugin manager, refer to the following.
 **vim-plug**
 
 ```vim
-Plug 'yasukotelin/shirotelin'
+Plug 'tamago324/my-shirotelin'
 ```
 
 **dein.vim**
 
 ```vim
-call dein#add('yasukotelin/shirotelin')
+call dein#add('tamago324/my-shirotelin')
 ```
 
 **Manual Install**
 
-If you want to manual install, you download `colors/shirotelin.vim` and puts on your `~/.vim/colors` directory.
+If you want to manual install, you download `colors/my_shirotelin.vim` and puts on your `~/.vim/colors` directory.
 
 ## Settings
 
 Write to your `.vimrc`.
 
 ```vimrc
-colorscheme shirotelin
+colorscheme my_shirotelin
 set background=light
 ```
 
