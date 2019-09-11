@@ -26,7 +26,7 @@ let g:colors_name = "shirotelin"
 " group-name
 """"""""""""""""""""""
 
-hi Comment term=NONE cterm=NONE ctermfg=22 gui=NONE guifg=#006300
+hi Comment term=NONE cterm=NONE ctermfg=22 gui=NONE guifg=#00a800
 
 hi Constant term=bold cterm=bold ctermfg=19 gui=bold guifg=#0000C0
 hi String term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
@@ -68,7 +68,7 @@ hi Underlined term=underline cterm=underline ctermfg=127 gui=underline guifg=#94
 
 hi Ignore term=NONE cterm=NONE ctermfg=231 gui=NONE guifg=bg
 
-hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 gui=bold guifg=Red guibg=white
+hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 guifg=#e60000 guibg=bg gui=bold,reverse 
 
 hi Todo term=bold cterm=bold ctermfg=22 ctermbg=151 gui=bold guifg=#006300 guibg=#afd7af
 
@@ -89,35 +89,35 @@ hi DiffChange term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
 hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#FFC8C8 guifg=#FFC8C8
 hi DiffText term=NONE cterm=NONE ctermbg=84 gui=NONE guibg=#60FF87
 hi EndOfBuffer term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
-hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=white
+hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=#f5f5f5
 hi VertSplit term=reverse cterm=reverse gui=reverse
-hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 guifg=DarkBlue guibg=LightGrey
+hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 guifg=DarkBlue guibg=#e6e6eb
 hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 guifg=DarkBlue guibg=Grey
 hi clear SignColumn
-hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
+hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#ffbf80
 hi LineNr term=NONE cterm=NONE ctermfg=240 gui=NONE guifg=#545454
 hi CursorLineNr term=bold cterm=bold ctermfg=238 gui=bold guifg=#444444
 hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi NonText term=NONE cterm=NONE ctermfg=242 gui=NONE guifg=#6c6c6c
-hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=white
+hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=#f5f5f5
 hi Pmenu term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#e4e4e4
-hi PmenuSel term=bold cterm=NONE ctermfg=231 ctermbg=67 gui=NONE guifg=white guibg=#5f87af
+hi PmenuSel term=bold cterm=NONE ctermfg=231 ctermbg=67 gui=NONE guifg=#f5f5f5 guibg=#5f87af
 hi PmenuSbar term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#F5F4EF
 hi PmenuThumb term=NONE cterm=NONE ctermbg=249 gui=NONE guibg=#b2b2b2
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi link QuickFixLine Search
 hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
 " hi SpecialKey
-hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=Red
-hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=#0000C0
+hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=bg guifg=#f03682
+hi SpellCap term=underline cterm=underline ctermbg=4 gui=bg guibg=#dc322f
 hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
 hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=DarkCyan
-hi StatusLine term=bold cterm=bold ctermbg=18 ctermfg=231 gui=bold guibg=#000087 guifg=white
-hi StatusLineNC term=bold cterm=bold ctermbg=245 ctermfg=231 gui=bold guibg=#8a8a8a guifg=white
-hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=white guibg=DarkGreen
-hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=white guibg=DarkGreen
+hi StatusLine term=bold cterm=bold ctermbg=18 ctermfg=231 gui=bold guibg=#000087 guifg=#f5f5f5
+hi StatusLineNC term=bold cterm=bold ctermbg=245 ctermfg=231 gui=bold guibg=#8a8a8a guifg=#f5f5f5
+hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=#f5f5f5 guibg=DarkGreen
+hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=#f5f5f5 guibg=DarkGreen
 hi TabLine term=NONE cterm=NONE ctermbg=254
 hi TabLineFill term=NONE cterm=NONE ctermbg=253
 hi TabLineSel term=NONE cterm=NONE ctermfg=16 ctermbg=231
@@ -130,6 +130,9 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 
 " hi Scrollbar
 " hi Menu
+
+" :terminal
+highlight Terminal guifg=lightgrey guibg=grey20
 
 """"""""""""""""""""""
 " NERDTree
