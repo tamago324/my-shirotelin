@@ -93,7 +93,7 @@ hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guib
 hi VertSplit term=reverse cterm=reverse gui=reverse
 hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 guifg=DarkBlue guibg=#e6e6eb
 hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 guifg=DarkBlue guibg=Grey
-hi clear SignColumn
+hi SignColumn guibg=#ededed
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#ffbf80
 hi LineNr term=NONE cterm=NONE ctermfg=240 gui=NONE guifg=#545454
 hi CursorLineNr term=bold cterm=bold ctermfg=238 gui=bold guifg=#444444
