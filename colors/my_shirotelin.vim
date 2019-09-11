@@ -111,7 +111,7 @@ hi link QuickFixLine Search
 hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
 " hi SpecialKey
 hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=bg guifg=#f03682
-hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=bg guibg=#dc322f
+hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=bg guisp=#dc322f
 hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
 hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=DarkCyan
 hi StatusLine term=bold cterm=bold ctermbg=18 ctermfg=231 gui=bold guibg=#000087 guifg=#f5f5f5
