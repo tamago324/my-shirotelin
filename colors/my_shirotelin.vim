@@ -132,7 +132,7 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 " hi Menu
 
 " :terminal
-hi Terminal guifg=lightgrey guibg=grey20
+" hi Terminal guifg=lightgrey guibg=grey20
 
 """"""""""""""""""""""
 " NERDTree
