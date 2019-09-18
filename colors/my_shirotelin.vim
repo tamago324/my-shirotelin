@@ -84,10 +84,10 @@ hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 hi clear CursorColumn
 hi CursorLine term=NONE cterm=NONE ctermbg=230 gui=NONE guibg=#FFFFD7
 hi Directory term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#000161
-hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
-hi DiffChange term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
-hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#FFC8C8 guifg=#FFC8C8
-hi DiffText term=NONE cterm=NONE ctermbg=84 gui=NONE guibg=#60FF87
+hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#DFFFDF
+hi DiffChange term=NONE cterm=NONE ctermbg=194 guibg=#DFFFDF
+hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#FFDFDF guifg=#FFDFDF
+hi DiffText term=NONE cterm=NONE ctermbg=84 gui=NONE guibg=#aaFFaa
 hi EndOfBuffer term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=#f5f5f5
 hi VertSplit term=reverse cterm=reverse gui=reverse
