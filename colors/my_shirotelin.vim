@@ -108,7 +108,7 @@ hi PmenuSbar term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#F5F4EF
 hi PmenuThumb term=NONE cterm=NONE ctermbg=249 gui=NONE guibg=#b2b2b2
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi link QuickFixLine Search
-hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
+hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffffa0
 " hi SpecialKey
 hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=bg guifg=#f03682
 hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=bg guisp=#dc322f
