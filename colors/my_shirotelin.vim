@@ -120,7 +120,7 @@ hi StatusLineNC term=bold cterm=bold ctermbg=245 ctermfg=231 gui=bold guibg=#8a8
 hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=#f5f5f5 guibg=DarkGreen
 hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=#f5f5f5 guibg=DarkGreen
 hi TabLine term=NONE cterm=NONE ctermbg=254
-hi TabLineFill term=NONE cterm=NONE ctermbg=253
+hi TabLineFill term=NONE cterm=NONE ctermbg=253 gui=reverse guifg=#b5b5b5
 hi TabLineSel term=NONE cterm=NONE ctermfg=16 ctermbg=231
 " hi Terminal
 hi Title term=bold cterm=bold ctermfg=89 gui=bold guifg=#87005f
