@@ -187,3 +187,34 @@ hi CocFloating term=NONE cterm=NONE ctermbg=229 gui=NONE guibg=#ffffaf
 """"""""""""""""""""""
 
 hi dartTypeName term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
+
+""""""""""""""""""""""
+" CtrlP
+""""""""""""""""""""""
+
+" CtrlP buffer
+" hi link CtrlPNoEntries     Error
+hi link CtrlPMatch         Search
+" hi clear CtrlPLinePre
+hi link CtrlPPrtBase       Special
+" hi link CtrlPPrtText       Normal
+" hi link CtrlPPrtCursor     Constant
+
+" " Buffer explorer mode
+" hi link CtrlPBufferNr      Constant
+" hi link CtrlPBufferInd     Normal
+" hi link CtrlPBufferHid     Comment
+" hi link CtrlPBufferHidMod  String
+" hi link CtrlPBufferVis     Normal
+" hi link CtrlPBufferVisMod  Identifier
+" hi link CtrlPBufferCur     Question
+" hi link CtrlPBufferCurMod  WarningMsg
+" hi link CtrlPBufferPath    Comment
+
+" " extensions
+" hi link CtrlPMark          Search
+
+" " Statuslines
+" hi link CtrlPMode1         Character
+" hi link CtrlPMode2         LineNr
+" hi link CtrlPStats         Function
