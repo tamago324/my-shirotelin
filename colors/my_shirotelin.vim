@@ -91,7 +91,7 @@ hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#FFDFD
 hi DiffText term=NONE cterm=NONE ctermbg=84 gui=NONE guibg=#aaFFaa
 hi EndOfBuffer term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000af
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=#FF0000 guibg=#f5f5f5
-hi VertSplit term=reverse cterm=reverse gui=reverse
+hi VertSplit term=reverse cterm=reverse gui=reverse guifg=#606060
 hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 guifg=DarkBlue guibg=#e6e6eb
 hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 guifg=DarkBlue guibg=Grey
 hi SignColumn guibg=#ededed
