@@ -115,7 +115,7 @@ hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=bg gu
 hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=bg guisp=#dc322f
 hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
 hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=DarkCyan
-hi StatusLine term=bold cterm=bold ctermbg=18 ctermfg=231 gui=bold guibg=#000087 guifg=#fffafa
+hi StatusLine term=bold cterm=bold ctermbg=18 ctermfg=231 gui=bold guibg=#3b8cde guifg=#fffafa
 hi StatusLineNC term=bold cterm=bold ctermbg=245 ctermfg=231 gui=bold guibg=#8a8a8a guifg=#fffafa
 hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=#fffafa guibg=DarkGreen
 hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=#fffafa guibg=DarkGreen
