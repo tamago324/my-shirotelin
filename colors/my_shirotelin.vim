@@ -218,3 +218,8 @@ hi link CtrlPPrtBase       Special
 " hi link CtrlPMode1         Character
 " hi link CtrlPMode2         LineNr
 " hi link CtrlPStats         Function
+
+""""""""""""""""""""""
+" LeafCage/yankround.vim
+""""""""""""""""""""""
+hi YankRoundRegion guibg=#ffebcd
