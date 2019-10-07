@@ -223,3 +223,8 @@ hi link CtrlPPrtBase       Special
 " LeafCage/yankround.vim
 """"""""""""""""""""""
 hi YankRoundRegion guibg=#ffebcd
+
+""""""""""""""""""""""
+" machakann/vim-highlightedyank
+""""""""""""""""""""""
+highlight HighlightedyankRegion guibg=#ffd699
