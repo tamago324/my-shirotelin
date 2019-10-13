@@ -2,9 +2,10 @@
 
 <p align="center">shirotelin is Ultimate standard New Classical light colorscheme for Vim, GVim and neovim!</p>
 
-Ultimate standard light color scheme "shirotelin" is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
+- [for Visual Studio Code version](https://github.com/yasukotelin/shirotelin-vscode)
+- [for JetBrains IDE version](https://github.com/yasukotelin/shirotelin-intellij)
 
-Version2 Released! More classical color and easier to see😍
+Ultimate standard light color scheme "shirotelin" is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
 Supports Windows, macOS and Linux!
 
@@ -99,11 +100,17 @@ Supported diff color 🤷‍♂️
 
 <img src="images/shirotelin-diff.png">
 
+### Terminal
+
+Vim8 Terminal window color is black base.
+
+<img src="./images/shirotelin-terminal.png" alt="shirotelin terminal">
+
 ## Features for Plugins
 
 I add colors for plugins actively.
 
-## coc.nvim
+### coc.nvim
 
 Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 
@@ -116,18 +123,26 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 
 <img src="images/shirotelin-coc-demo.gif" alt="shirotelin for coc.nvim">
 
-## Markdown
+### Markdown
 
 <img src="./images/shirotelin-markdown.png" alt="shirotelin for Markdown">
 
-## NERDTree
+### NERDTree
 
 <img src="images/shirotelin-nerd-tree.png" alt="shirotelin for NERDTree">
 
-### with vim-devicons
+#### with vim-devicons
 
 <img src="images/shirotelin-nerd-tree-with-vim-devicons.png" alt="shirotelin for NERDTree with vim-devicons">
 
-## dart-vim-plugin
+### dart-vim-plugin
 
 <img src="images/shirotelin-dart-vim-plugin.png" alt="shirotelin for dar-vim-plugin">
+
+## Licence
+
+MIT Licence
+
+## Author
+
+yasukotelin
