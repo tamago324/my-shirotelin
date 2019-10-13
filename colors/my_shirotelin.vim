@@ -227,4 +227,4 @@ hi YankRoundRegion guibg=#ffebcd
 """"""""""""""""""""""
 " machakann/vim-highlightedyank
 """"""""""""""""""""""
-highlight HighlightedyankRegion guibg=#ffd699
+highlight HighlightedyankRegion guibg=bg guifg=#FFD688 gui=reverse
