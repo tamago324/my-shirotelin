@@ -228,3 +228,9 @@ hi YankRoundRegion guibg=#ffebcd
 " machakann/vim-highlightedyank
 """"""""""""""""""""""
 highlight HighlightedyankRegion guibg=bg guifg=#FFD688 gui=reverse
+
+
+""""""""""""""""""""""
+" zah/nim.vim
+""""""""""""""""""""""
+highlight link nimBuiltin Statement
