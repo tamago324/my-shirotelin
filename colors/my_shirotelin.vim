@@ -69,7 +69,7 @@ hi Underlined term=underline cterm=underline ctermfg=127 gui=underline guifg=#af
 
 hi Ignore term=NONE cterm=NONE ctermfg=231 gui=NONE guifg=bg
 
-hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 guifg=#e60000 guibg=bg gui=bold,reverse 
+hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 guifg=#af0000 guibg=#ffd7ff gui=bold
 
 hi Todo term=bold cterm=bold ctermfg=22 ctermbg=151 gui=bold guifg=#005F00 guibg=#afd7af
 
@@ -111,11 +111,10 @@ hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi link QuickFixLine Search
 hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffffa0
 " hi SpecialKey
-hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=bg guifg=#f03682
-" hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=bg guisp=#dc322f
-hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=bg guisp=#005F00
-hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
-hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=DarkCyan
+hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=#ffafd7 guifg=fg
+hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=#ffffaf guifg=fg
+hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=#d7d7ff guifg=fg
+hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=#afff87 guifg=fg
 hi StatusLine term=bold cterm=bold ctermbg=18 ctermfg=231 gui=bold guibg=#3b8cde guifg=#FAFAFF
 hi StatusLineNC term=bold cterm=bold ctermbg=245 ctermfg=231 gui=bold guibg=#8a8a8a guifg=#FAFAFF
 hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=#FAFAFF guibg=DarkGreen
@@ -235,3 +234,10 @@ highlight HighlightedyankRegion guibg=bg guifg=#FFD688 gui=reverse
 " zah/nim.vim
 """"""""""""""""""""""
 highlight link nimBuiltin Statement
+
+
+""""""""""""""""""""""
+" tamago324/mint.vim
+""""""""""""""""""""""
+hi MintWarningProp gui=undercurl guifg=fg guibg=#d7ffd7
+hi MintWarningSign gui=bold guifg=#00ad00 guibg=#d7ffd7
