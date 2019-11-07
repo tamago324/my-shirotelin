@@ -242,3 +242,11 @@ highlight link nimBuiltin Statement
 """"""""""""""""""""""
 hi MintWarningProp gui=undercurl guifg=fg guibg=#d7ffd7
 hi MintWarningSign gui=bold guifg=#00ad00 guibg=#d7ffd7
+
+""""""""""""""""""""""
+" dense-analysis/ale
+""""""""""""""""""""""
+hi ALEWarning     gui=undercurl guifg=fg      guibg=#d7ffd7
+hi ALEWarningSign gui=bold      guifg=#00ad00 guibg=#d7ffd7
+hi ALEError       gui=undercurl guifg=fg      guibg=#ffafd7
+hi ALEErrorSign   gui=bold      guifg=#af0000 guibg=#ffd7ff
